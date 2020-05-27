@@ -1,54 +1,68 @@
 body {
     background: #e7e1e1;
     font-family: 'Times New Roman', Times, serif, sans-serif;
-
     }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-left: 45px;
 
 }
+
 .search-tel {
     order: -1;
     align-self: center;
-    }
-#find {
-    height: 10px;
-    width: 20px;
 }
+
+#sbtn {
+    margin: 10px 5px;
+}
+
+.tel {
+    margin: 10px 15px;
+}
+
+#find {
+    margin: 0;
+    height: 10px;
+    width: 15px;
+}
+
 #phon{
     height: 10px;
     width: 20px;
 }
+
 .name {
     font-size: 3rem;
     text-align: center;
+    margin-left: 1em;
+    margin-right: 2em;
 }
+
 .cart{
     justify-content: center;
     align-self: center;
-    font-size: 
 }
+
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-        color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  margin: 0;
-  border: 1px #e7e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-left: 145px;
 }
 
 .dropbtn {
   color: black;
-  padding: 16px;
-  font-size: 16px;
+  padding: 25px;
+  font-size: 25px;
   border: none;
   cursor: pointer;
   
@@ -79,22 +93,65 @@ nav{
 .dropdown:hover .dropbtn {
   background-color: #e9ccb1;
 }
-.sale {
-    background-color: #f1f1f1;
-    padding: 16px 16px;
-}
 
 .brend {
     background-color: #f1f1f1;
-    padding: 12px 16px;
+    padding: 25px 25px;
+    font-size: 25px;
+}
+
+.brend:hover {
+  background-color: #e9ccb1;
+}
+
+.sale {
+    background-color: #f1f1f1;
+    padding: 25px 25px;
+    font-size: 25px;
+}
+
+.sale:hover {
+  background-color: #e9ccb1;
 }
 
 .addition {
     background-color: #f1f1f1;
-    padding: 12px 16px;
+    padding: 25px 25px;
+    font-size: 25px;
+}
+
+.addition:hover {
+  background-color: #e9ccb1;
 }
 
 .cont {
     background-color: #f1f1f1;
-    padding: 12px 16px;
+    padding: 25px 25px;
+    font-size: 25px;
 }
+
+.cont:hover {
+  background-color: #e9ccb1;
+}
+
+@media (max-width:780px) {
+   .brend { 
+       display: none;
+   }     
+   .sale {
+       display: none;
+   }
+   .addition {
+      display: none; 
+   }
+   .cont {
+      display: none;
+   }
+}
+
+@media (max-width:1024px) {
+    #searc {
+        display: none;
+    }
+}
+ 
