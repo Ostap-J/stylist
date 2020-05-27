@@ -49,6 +49,7 @@ header {
 .cart{
     justify-content: center;
     align-self: center;
+    max-width: 1280px;
 }
 
 nav{
